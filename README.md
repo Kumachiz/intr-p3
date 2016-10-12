@@ -10,7 +10,7 @@ _This is a number game that will return Ping when you enter a number divisible b
 
 ## Setup/Installation Requirements
 
-* [_Go to my Git Hub link_](https://kumachiz.github.io/intr-p3///)
+* [_Go to my Git Hub link_](https://kumachiz.github.io/intr-p3/)
 * _Now that you're on the program page, you can enter a number that you would like and you should see results that have either Ping, Pong, PingPong or nothing at all._
 * _.Your results should be printed below the Submit button._
 
