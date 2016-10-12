@@ -6,7 +6,7 @@
 
 ## Description
 
-_.This is a number game that will return Ping when you enter a number divisible buy 3, Pong when the number is divisible by 5, and PingPong when a number is divisible by 15. The program also displays numbers before and after. If the number is even the results will include reminders that come at the end of the results._
+_This is a number game that will return Ping when you enter a number divisible buy 3, Pong when the number is divisible by 5, and PingPong when a number is divisible by 15. The program also displays numbers before and after. If the number is even the results will include reminders that come at the end of the results._
 
 ## Setup/Installation Requirements
 
