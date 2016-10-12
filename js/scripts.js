@@ -1,25 +1,27 @@
 var checkInput = function(input) {
-  for (var i = 1; i <= input; i++); {
+  for (var i = 1; i <= input; i++) {
     if (i % 15 === 0) {
-      $("#output").show("<li>PingPong</li>");
+      // console.log('<li>PingPong</li>')
+      $("#output").append("<li>PingPong</li>");
     } else if ( i % 5 === 0) {
-      $("#output").show("<li>Pong</li>");
+      // console.log('<li>Pong</li>')
+      $("#output").append("<li>Pong</li>");
     } else if (i % 3 === 0) {
-      $("#output").show("<li>Ping</li>");
-    } else
-      $("#output").show("<li>i</li>");
+      // console.log('<li>Ping</li>')
+      $("#output").append("<li>Ping</li>");
+    } else {
+    // console.log('<li>i</li>')
+      $("#output").append("<li>" + i + "</li>");
+    }
   }
 };
 
 $(document).ready(function() {
-  $("#submit").click(function(event) {
+  $("#ping-pong").submit(function(event) {
     event.preventDefault();
 
-    $("#output").html('');
-
+    $("#output").empty('');
     var userInput = $("#input").val();
-
-
     checkInput(userInput);
 
 

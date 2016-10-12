@@ -1,1 +1,21 @@
+#output{
+  color: green;
+  filter: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-22.jpg');
+  opacity: 50;
+  padding-top: 15px;
+  padding-bottom: 20px;
 
+}
+
+h1{
+  filter: sepia(12);
+  filter: contrast(-20);
+  filter: saturate(-50);
+  text-align: center;
+  background-color: white;
+  padding: 8px;
+}
+button{
+  color: white;
+  background-color: #ff8100;
+}
