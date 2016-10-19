@@ -7,6 +7,15 @@
 ## Description
 
 _This is a number game that will return Ping when you enter a number divisible buy 3, Pong when the number is divisible by 5, and PingPong when a number is divisible by 15. The program also displays numbers before and after. If the number is even the results will include reminders that come at the end of the results._
+## Specifications
+#### Input                                     
+1. _A number divisible by 3_                              
+2. _A number divisible by 5_                   
+3. _A number divisible by 15_                         
+#### Output
+_1._ _Every number that is divisible by 3 is replaced with Ping and last output is Ping if it's an odd number the last output will be that number._
+ _2._ _Every number that is divisible by 5 is replaced with Pong and last output is Pong if it's an odd number the last output will be that number._
+  _3._ _Every number that is divisible by 15 is replaced with PingPong and last output is PingPong if it's an odd number the last output will be that number._
 
 ## Setup/Installation Requirements
 
